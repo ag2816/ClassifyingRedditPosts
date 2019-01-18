@@ -26,7 +26,7 @@ The following features were gathered or calculated for each post:
 
 The step to generate these features was included in a pipeline to make it easier to consistently apply the same transformations to the validation set and future test sets.
 
-In order to evaluate the words in the post title, they had to first be cleaned up. This involved removing digits, punctuation, english stop words and special "giveaway" words (i.e. Fantasy or SciFi). The remaining words were then lemmatized (based on their assigned part of speech tag) and finally tokenized (broken into a list of individual words) and assigned a TFIDF score (this score evaluates the.
+In order to evaluate the words in the post title, they had to first be cleaned up. This involved removing digits, punctuation, english stop words and special "giveaway" words (i.e. Fantasy or SciFi). The remaining words were then lemmatized (based on their assigned part of speech tag) and finally tokenized (broken into a list of individual words) and assigned a TFIDF score.
 
 The cleaned vector plus the above fields were then fed to a number of classification models and scored based their accuracy and area under the curve in predicting the subreddit they came from.
 
