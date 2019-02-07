@@ -34,4 +34,4 @@ Tests were run on unigrams (single words), bigrams and both unigrams and bigrams
 
 A number of different classification models were used: Logistic Regression, Support Vector Classifer, Naive Bayes, Random Forst and CatBooost. Interestingly, a basic Logistic Regression worked as well or better than a more sophisticated CatBoost model. Each of those models, however, used very different features to classify the posts. Logistic Regression relied heavily on words in the post title, while CatBoost used some of the calculated fields, such as external_url, ups, text_len, num_comments and title_len before relying on title words
 
-A blog post on this topic can be found here: https://medium.com/dataexplorations/chatting-about-books-can-we-predict-which-book-themed-subreddit-a-particular-post-came-from-9022e79db99c
+For a more detailed write up on this topic, please refer to my blog post: https://medium.com/dataexplorations/chatting-about-books-can-we-predict-which-book-themed-subreddit-a-particular-post-came-from-9022e79db99c
